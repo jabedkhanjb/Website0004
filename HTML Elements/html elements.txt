@@ -1,0 +1,226 @@
+**********************HTML Start shortcut****************************
+html:5 + enter or shift+1(!) / shift+1(!!!)
+
+***********************Basic language for HTMl*************************
+<p> </p> for paragraph
+<h> </h> for heading
+<div> </div> for divided
+<img> </img> for image
+<a> </a> for link. we can say it as an "ancor"
+
+*****************HTML Elements****************** 
+<p> *for distance </p>
+<br/> *for break line
+<p> <b> bold text </b> </p> 
+<p> <big> big text </big> </p>
+<p> <i> itilic text </i> </p>
+<u> underline </u>
+<mark> marking </mark> for marking our text 
+<p> <small> small text </small> </p>
+<p> <strong> strong text </strong> </p> bold text
+<code> </code> for write as a code
+<p> <sub> subscripted text </sub></p> down of letter
+<p> <sup> superscripted text </sup></p> up of letter
+<p> <ins> inserted text </ins></p>
+<p> <del> deleted text </del></p>
+***********************List Item*********************
+unordered has a dot sign
+tag is <ul> </ul>
+ordered has number sequence
+tag is <ol> </ol>
+
+****************h1 - h6***************
+This is for front size
+<h1> </h1>
+<h2> </h2>
+<h3> </h3>
+<h4> </h4>
+<h5> </h5>
+<h6> </h6>
+<hr> *horizontal
+
+***************for comment on Code****************
+<!-- YOUR CONMMENT -->
+
+
+
+****************Some Elements*******************
+<p align="center"> 
+<hr width="50px"/>
+	OR
+<hr width ="50%"/>
+
+
+
+
+**********************html tag********************
+title=""
+  or
+class=""
+  or
+id=""
+how to use ??                          Jabed Khan
+suppose, <h2 title="Facebook Link"> Social Media </h2>
+you can use class or id tag, no matter about that.
+
+***************href link*************
+<a href="http://www.facebook.com" target="-blank"> click here </a>
+
+**************Comment in code*****************
+<!-- your comment -->
+
+***********title*******************
+title use for exact details or anything else.
+how to use ?
+<html><body><ol><li title="Battli,Punianagar, Mohi Uddin Master Bari"><i>Permanent:</i>Lakshmipur, Chittagong</li></ol></body></html>
+
+
+
+
+*******************html form**********************
+<form action="">
+<input type="text">
+"email"
+"password"
+"number"
+<select></select>
+<input type="radio" value="">
+<input type="checkbox" value="">
+"file"
+<textarea></textarea>
+"submit" value=" Submit data"
+"reset" value="reset all"
+</form>
+
+html form input type
+text
+emai
+password
+number
+select <select> </select>
+radio
+checkbox
+file
+textarea <textarea> </textarea>
+reset
+left all input type is <input type=".....">
+
+*********************Table************************
+<table>
+<tr> 
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</table>
+
+****************HTML Formatting Elements******************
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+<hr> tag make a line 
+<pre>
+here you can type        with any format,
+u can use lots of space & enter, it will 
+according to your line.
+</pre>
+
+<mark> </make> Element.
+E.G. <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<del> </del> Element.
+E.G. <p>My favorite color is <del>blue</del> red.</p>
+
+<ins>red</ins> Element.
+
+*********HTML Quotation and Citation Elements*********
+In this chapter,
+we will go through the 
+<blockquote>,<q>, <abbr>, <address>, <cite>
+and <bdo> HTML elements.
+
+<blockquote> made 1 tab margine left
+<p>Browsers usually indent blockquote elements.</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For nearly 60 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+</blockquote>
+
+HTML <abbr> for Abbreviations
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+HTML <address> for Contact Information
+<address>
+Written by Jabed Khan.<br> 
+Visit us at:<br>
+jabedkhanjb.com<br>
+Box 564, Virginia<br>
+USA
+</address>
+
+HTML <cite> for Work Title
+The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+
+Note: A person's name is not the title of a work.
+
+The text in the <cite> element usually renders in italic.
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+HTML <bdo> for Bi-Directional Override
+BDO stands for Bi-Directional Override.
+<bdo dir="rtl">jabedkhan.jb</bdo> 
+then it will be reversed and demonstrate like this,
+bj.nahkdebaj
+
+****************HTML HSL Color Values*******************
+In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+hsl(hue, saturation, lightness)
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+Lightness is also a percentage value, 0% is black, and 100% is white.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

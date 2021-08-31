@@ -1,0 +1,204 @@
+************************CSS Elements**************************
+1) Typography------------------Color, text, font, icon
+2) CSS Boxtype-----------------height, width, margin, padding, box shadow
+3) CSS Selector----------------id, class, Nth-child, nested, pseudo
+4) CSS Display-----------------inline, block, flex-box
+5) CSS List style--------------List css, menu, dropdown menu, mega menu
+6) Position--------------------Position absolute, Relative, fixed
+7) Before, After & hover-------before, after & hover animation
+8) Layouy / Gird---------------Float, clear, Bootstrap Gird
+9) Form & Table----------------Form, Table css with Bootstrap
+10) Responsive----------------- Details about responsive css
+
+
+*******************(1) Typography----Color*********************
+color names, RGB__red, green, blue., hexadecimal value, hue, ssturation, lightness
+
+***********CSS text************
+Text align----1.left    2.right    3.center
+text-decoration-----1.overline    2.line-through     3.underline //none
+text-transform------1.uppercase    3.lowercase      3.capatalize
+text spacing-------1.letter-spacing     3.line-height     3.word-spacing
+text shadow--------1.3px   2.2px
+
+***********CSS Fonts***************
+font-size-------------------px, em, rem
+font-style------------------normal, italic, oblique
+font-weight-----------------normal. bold, 400, 600
+font-family-----------------name of the font
+
+********************Icon*********************
+font awesome / font awesome cdnjs link up with html
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+
+*******************Padding Margin******************
+css{display: inline-block;}
+
+color, background, display, padding(top, right, to, bottom), border-width, 
+border-style, border-color, margin(left,right, top, bottom)
+
+***********************css************
+
+use 
+	*{
+		margin: 0;
+		padding: 0;
+		
+	    }
+when text-align not work, 
+use diplay: inline-block;
+
+**********************Take div in shortcut*************************
+.(classname)+tab
+
+.new+tab
+= <div class="new"> </div>
+
+**********************Website Color***********************
+Color website: flatuicolors.com
+
+***************margin auto********************
+when text align center doesn't work,
+we have to use margin auto,
+margin(20px , auto)
+here 20px is top and bottom together,
+and auto is used for left and right.
+
+***************img bottom space***************
+in every img , we will c some space in the below,
+to reduce that space, 
+use: margin-bottom: -5px:
+
+**********************CSE Selector********************
+1. tag selector exm: h1,h2,p,div
+2. class, id selector:  .jb for class & #jb for id
+3. nested selector: ul li a , body p ( one tag is applied into another)
+4. child selector
+5. pseudo selector: hover, before, after
+
+********CSS Display-----------------inline, block, flex-box********
+in css, if we use display: inline;
+padding will not work properly. 
+so we have to use display:inline-block;
+padding will work as usual then.
+
+
+************CSS Position***************
+position:relative	position:absolute	position:fixed
+used with: top, left, right, bottom
+position:static
+position: relative;
+position: fixed;
+
+opacity: 0; (hidden) 
+opacity: 1; (visible) 
+
+visibility: hidden;
+visibility: visible;
+
+***************CSS Border item list****************
+1. dotted - Defines a dotted border
+2. dashed - Defines a dashed border
+3. solid - Defines a solid border
+4. double - Defines a double border
+5. groove - Defines a 3D grooved border. The effect depends on the border-color value
+6. ridge - Defines a 3D ridged border. The effect depends on the border-color value
+7. inset - Defines a 3D inset border. The effect depends on the border-color value
+8. outset - Defines a 3D outset border. The effect depends on the border-color value
+9. none - Defines no border
+10.hidden - Defines a hidden border
+
+
+*****************site targer="" ******************
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+
+******************Email address Link*********************
+Instead of a Web address, type in the email address you want to use, 
+using this format: mailto:name@domain instead of a URL
+
+*************table border*************
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+</style>
+Chapter Summary
+Use the HTML <table> element to define a table
+Use the HTML <tr> element to define a table row
+Use the HTML <td> element to define a table data
+Use the HTML <th> element to define a table heading
+Use the HTML <caption> element to define a table caption
+Use the CSS border property to define a border
+Use the CSS border-collapse property to collapse cell borders
+Use the CSS padding property to add padding to cells
+Use the CSS text-align property to align cell text
+Use the CSS border-spacing property to set the spacing between cells
+Use the colspan attribute to make a cell span many columns
+Use the rowspan attribute to make a cell span many rows
+Use the id attribute to uniquely define one table 
+
+
+
+**************CSS List Style****************
+#list-style-type:  1.disc  2.circle  3.squre  4.decimal 5.none
+#list-style-position: 1.outside  2.inside
+#list-style-image:  1.url();
+
+icon for list-style-img: url(); website: falicon.com
+bg color website: https://flatuicolors.com/palette/gb
+
+
+***********CSS Before After**************
+h2::before{
+content:"add text here";}
+
+h2::after{
+content:"add text here";}
+
+***********CSS Transform Animation*************
+1.Translate  2.Rotate  3.Skew  4.Scale
+translate x,y (20px,10px)
+Rotate (20deg)
+skew(20deg, 20deg)
+scale(2,2)
+
+##text-align: center; / margin: auto;##
+
+
+*************CSS Float**************
+float: left;
+float: right;
+float: none;
+
+****CSS Clear****
+clear: left;
+clear: right;
+clear: both;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
