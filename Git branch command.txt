@@ -1,0 +1,10 @@
+*************Git Branch*************
+how to check branch ?
+command: git branch
+new branch create: git branch (name)
+check now, git branch
+switching to new branch
+git checkout (branch name)
+
+fast create & swichi to new branch
+command: git checkout -b (name)
